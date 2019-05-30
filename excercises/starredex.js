@@ -25,18 +25,35 @@
 
 
 
-//Print every prime # from 2 to 2,000
-function print2to2000(x)
-for (i = 2; i < 2000; i++);{
-    text += "The number is" +i+ "<br>";
+/*Print every prime # from 2 to 2,000
+function checkingforPrimes(x){
 
-if((x+1)%2==0){
+for (i = 2; i < 2000;){
+    console.log("The number is" + i + "<.>");
+  (i++);
+/*if((x+1)%2==0){
     print(x + "is not prime");
 }else{
     print(x + "is not prime");
 }
 }
+} */
 
+function checkForPrimes() {
+    var x = 0;
+    var text ="";
+    for(x = 2; x < 2000;){
+      if((x+1)%2==0){
+      console.log( text + x + " is prime");
+    }else{
+       console.log(text + x + " is not prime");
+    }
+      x++;
+        
+    }
+    }
+    
+    console.log(checkForPrimes());
 //Two strings-return largest common substring from 2 strings
 
 
