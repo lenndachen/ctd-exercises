@@ -39,7 +39,7 @@ for (i = 2; i < 2000;){
 }
 } */
 
-function checkForPrimes() {
+/*function checkForPrimes() {
     var x = 0;
     var text ="";
     for(x = 2; x < 2000;){
@@ -54,7 +54,7 @@ function checkForPrimes() {
     }
     
     console.log(checkForPrimes());
-//Two strings-return largest common substring from 2 strings
+*///Two strings-return largest common substring from 2 strings
 
 
 
@@ -62,3 +62,8 @@ function checkForPrimes() {
 
 
 //Given two lists-each list is a subset of another list
+
+function sum(a, b) {
+  return a + b;
+}
+module.exports = sum;
